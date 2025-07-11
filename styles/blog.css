@@ -57,6 +57,10 @@ header{
     border-radius: 5px;
     border: none;
 }
+.btn-primary:hover{
+    background-color: yellow;
+    color: #000;
+}
 
 /* nav styles */
 
@@ -101,4 +105,58 @@ font-weight: bold;
 }
 
 
+/* stats section */
+
+.stat-body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dfdede;
+    margin: 15px 120px 15px 120px;
+    padding: 80px 50px;
+    display: flex;
+    justify-content: center;
+    width: 80px 80px;
+    height: 170px;
+    border-radius: 10px;
+
+    
+}
+
+.stats-container{
+    background-color: #e7e5ff;
+    border-radius: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    width: 1340px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05)
+}
+
+.stats-container h2{
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    color: #000;
+
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stat-item{
+    flex: 1 1 100px;
+    margin: 20px;
+}
+
+.stat-item h3{
+    font-size: 2rem;
+    color: #4f46e5;
+    margin: 0;
+}
+
+.stat-item p{
+    margin-top: 8px;
+    color: #555;
+    font-size: 0.95rem;
+}
 
