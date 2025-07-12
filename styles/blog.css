@@ -228,3 +228,31 @@ font-weight: bold;
     border-radius: 50%;
     margin-right: 10px;
 }
+
+
+/* Lets get in touch section */
+
+.total-sec{
+    display: flex;
+    width: 1440px;
+    gap: 10px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.section-col-title{
+    color: rgba(0, 0, 0, 1;)
+    font-weight: bold;
+    font-size: 64px;
+    padding: 130px 230px;
+}
+
+section input[type="text"],section input[type="email"],section textarea{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+}
